@@ -16,13 +16,13 @@ Predicting the right answer for the given question and context.
 4. Algined question embedding was omitted due to computational power limits
 5. Algined question embedding was omittited because, training on 1 epoch was taking more than 5 hours.
 6. Performance can be improoved further by considering:
-  * All data points
-  * Taking 128 units and 3 Layer of Bi_LSTM as mentioned in paper.
-  * Considering Algined question embedding + f_exact together.
+   *.  All data points
+   *.  Taking 128 units and 3 Layer of Bi_LSTM as mentioned in paper.
+   *.  Considering Algined question embedding + f_exact together.
 
 # Summary:
-+---------------------------------------------+----------+----------------+----------------+
-|                   Features                  | Accuracy | micro f1 score | macro f1 score |
-+---------------------------------------------+----------+----------------+----------------+
-| question + context + POS + TF + Exact_lemma |  0.308   |     0.403      |     0.306      |
-+---------------------------------------------+----------+----------------+----------------+
+ +---------------------------------------------+----------+----------------+----------------+
+ |                   Features                  | Accuracy | micro f1 score | macro f1 score |
+ +---------------------------------------------+----------+----------------+----------------+
+ | question + context + POS + TF + Exact_lemma |  0.308   |     0.403      |     0.306      |
+ +---------------------------------------------+----------+----------------+----------------+
