@@ -3,6 +3,8 @@ Data Stanford Question Answering Dataset (SQuAD) is a reading comprehension data
 
 **SQuAD 1.1:** The previous version of the SQuAD dataset, contains 100,000+ question-answer pairs on 500+ articles.
 
+I have written a detailed post regarding this on medium. You can read it here https://medium.com/@raman.shinde15/neural-question-and-answering-using-sqad-dataset-and-attention-983d3a1dd42c
+
 # Standford Attentive Reader
 Implemented standford attentive reader model using keras.
 
@@ -23,5 +25,6 @@ Predicting the right answer for the given question and context.
 # Summary:
  
  |                   Features                  | Accuracy | micro f1 score | macro f1 score |
+ 
  | question + context + POS + TF + Exact_lemma |  0.308   |     0.403      |     0.306      |
  
