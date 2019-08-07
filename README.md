@@ -20,9 +20,9 @@ I have written a detailed post regarding this on medium. You can read it here ht
 4. Algined question embedding was omitted due to computational power limits
 5. Algined question embedding was omittited because, training on 1 epoch was taking more than 5 hours.
 6. Performance can be improoved further by considering:
-   *.  All data points
-   *.  Taking 128 units and 3 Layer of Bi_LSTM as mentioned in paper.
-   *.  Considering Algined question embedding + f_exact together.
+  . All data points
+  . Taking 128 units and 3 Layer of Bi_LSTM as mentioned in paper.
+  . Considering Algined question embedding + f_exact together.
 
 # Summary:
  
