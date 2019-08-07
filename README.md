@@ -21,8 +21,7 @@ Predicting the right answer for the given question and context.
    *.  Considering Algined question embedding + f_exact together.
 
 # Summary:
- +---------------------------------------------+----------+----------------+----------------+
+ 
  |                   Features                  | Accuracy | micro f1 score | macro f1 score |
- +---------------------------------------------+----------+----------------+----------------+
  | question + context + POS + TF + Exact_lemma |  0.308   |     0.403      |     0.306      |
- +---------------------------------------------+----------+----------------+----------------+
+ 
