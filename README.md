@@ -1,6 +1,3 @@
-# Machine-Reading-Comprehension-Neural-Question-Answer-
-This repository belong to Machine Reading Comprehension(Neural Question Answer)
-
 # About Dataset:
 Data Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable. You can download this dataset here https://rajpurkar.github.io/SQuAD-explorer/
 
@@ -12,8 +9,18 @@ Implemented standford attentive reader model using keras.
 # Problem Statement
 Predicting the right answer for the given question and context.
 
-# Summary:
+# Observations:
+1. Obtained micro f1_score of **40.33%** on test data.
+2. **Algined question embedding and f_exact match** found to be the moset effective as mentioned in paper
+3. f1_score can be further improoved by adding Algined question embedding feature to context.
+4. Algined question embedding was omitted due to computational power limits
+5. Algined question embedding was omittited because, training on 1 epoch was taking more than 5 hours.
+6. Performance can be improoved further by considering:
+  * All data points
+  * Taking 128 units and 3 Layer of Bi_LSTM as mentioned in paper.
+  * Considering Algined question embedding + f_exact together.
 
+# Summary:
 +---------------------------------------------+----------+----------------+----------------+
 |                   Features                  | Accuracy | micro f1 score | macro f1 score |
 +---------------------------------------------+----------+----------------+----------------+
