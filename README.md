@@ -16,12 +16,12 @@ I have written a detailed post regarding this on medium. You can read it here ht
 
 
 ## Observations:
-1. Obtained micro f1_score of **40.33%** on test data.
-2. **Algined question embedding and f_exact match** found to be the moset effective as mentioned in paper
-3. f1_score can be further improoved by adding Algined question embedding feature to context.
-4. Algined question embedding was omitted due to computational power limits
-5. Algined question embedding was omittited because, training on 1 epoch was taking more than 5 hours.
-6. Performance can be improoved further by considering:
+* Obtained micro f1_score of **40.33%** on test data.
+* **Algined question embedding and f_exact match** found to be the moset effective as mentioned in paper
+* f1_score can be further improoved by adding Algined question embedding feature to context.
+* Algined question embedding was omitted due to computational power limits
+* Algined question embedding was omittited because, training on 1 epoch was taking more than 5 hours.
+* Performance can be improoved further by considering:
     1. All the data points 
     2. Taking 128 units and 3 Layer of Bi_LSTM as mentioned in paper.
     3. Considering Algined question embedding + f_exact together.
