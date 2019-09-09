@@ -14,7 +14,7 @@ Implemented standford attentive reader model using keras.
 Predicting the right answer for the given question and context.
 
 ## Blog:
-I have written a detailed post regarding this on medium. You can read it here https://medium.com/@raman.shinde15/neural-question-and-answering-using-sqad-dataset-and-attention-983d3a1dd42c
+**I have written a detailed post regarding this on medium. You can read it here https://medium.com/@raman.shinde15/neural-question-and-answering-using-sqad-dataset-and-attention-983d3a1dd42c**
 
 
 ## Observations:
