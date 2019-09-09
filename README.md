@@ -56,3 +56,18 @@ Please refer this research paper. https://arxiv.org/abs/1810.04805.
  
 ![Summary](/images/summary.PNG)
  
+## Referances:
+
+* The Stanford Question Answering Dataset by Rajpurkar https://rajpurkar.github.io/mlx/qa-and-squad/
+* ReadingWikipedia to Answer Open-Domain Questions https://arxiv.org/pdf/1704.00051.pdf
+* https://hanxiao.github.io/2018/04/21/Teach-Machine-to-Comprehend-Text-and-Answer-Question-with-Tensorflow/
+* https://github.com/kellywzhang/reading-comprehension
+* https://github.com/Shuang0420/Fast-Reading-Comprehension
+* https://github.com/google-research/bert/blob/master/run_squad.py
+* https://github.com/google-research/bert
+
+
+
+----------------------------------------------------END------------------------------------------------------
+https://www.kaggle.com/lapolonio/bert-squad-forked-from-sergeykalutsky/code
+
