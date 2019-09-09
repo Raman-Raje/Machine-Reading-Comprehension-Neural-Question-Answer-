@@ -65,9 +65,9 @@ Please refer this research paper. https://arxiv.org/abs/1810.04805.
 * https://github.com/Shuang0420/Fast-Reading-Comprehension
 * https://github.com/google-research/bert/blob/master/run_squad.py
 * https://github.com/google-research/bert
-
+* https://www.kaggle.com/lapolonio/bert-squad-forked-from-sergeykalutsky/code
 
 
 ----------------------------------------------------END------------------------------------------------------
-https://www.kaggle.com/lapolonio/bert-squad-forked-from-sergeykalutsky/code
+
 
