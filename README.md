@@ -13,7 +13,7 @@ Data Stanford Question Answering Dataset (SQuAD) is a reading comprehension data
 Predicting the right answer for the given question and context.
 
 ## Standford Attentive Reader
-Implemented standford attentive reader model using keras.Please refer this [paper](https://arxiv.org/pdf/1704.00051.pdf)
+Implemented standford attentive reader model using keras.Please refer this [paper.](https://arxiv.org/pdf/1704.00051.pdf)
 
 ![Standford Attentive Reader](/images/model.JPG)
 
